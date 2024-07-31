@@ -1,7 +1,9 @@
+import { StyledHeader } from './styles/Header.styled';
+
 export default function Header() {
   return (
-    <div>
+    <StyledHeader>
       <h1>Hubble</h1>
-    </div>
+    </StyledHeader>
   );
 }
